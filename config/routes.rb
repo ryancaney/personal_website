@@ -1,4 +1,17 @@
 PersonalWebsite::Application.routes.draw do
+
+  resources :recipes
+
+  devise_for :users
+  devise_scope :user do
+    get "users/sign_out", :to => "devise/sessions#destroy"
+  end
+
+  ActiveAdmin.routes(self)
+
+  devise_for :admin_users, ActiveAdmin::Devise.config
+
+  root :to => "recipes#index"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
