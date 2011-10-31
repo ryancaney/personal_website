@@ -6,6 +6,8 @@ gem 'will_paginate', '3.0.pre2'
 gem 'activeadmin'
 gem 'devise'
 gem 'paperclip', '~> 2.4'
+gem 'jquery-rails'
+
 
 group :development do
   gem 'rspec-rails', '2.6.1'

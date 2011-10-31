@@ -27,10 +27,10 @@ describe RecipesController do
     {}
   end
 
-  describe "GET index" do
+  describe "GET list" do
     it "assigns all recipes as @recipes" do
       recipe = Recipe.create! valid_attributes
-      get :index
+      get :list
       assigns(:recipes).should eq([recipe])
     end
   end

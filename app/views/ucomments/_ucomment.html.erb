@@ -1,0 +1,11 @@
+<p>
+  <b>Comment by: </b> <%= ucomment.user_name %> <br />
+  <b>Comment: </b><%= ucomment.content %>
+
+</p>
+
+<p>
+  <%= link_to 'Delete Comment', [ucomment.recipe, ucomment],
+              :confirm => 'Are you sure?',
+              :method => :delete %>
+</p>

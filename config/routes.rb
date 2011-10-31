@@ -1,6 +1,12 @@
 PersonalWebsite::Application.routes.draw do
 
-  resources :recipes
+  get "ucomments/new"
+
+  get "usercomments/new"
+
+  resources :recipes do
+    resources :ucomments
+  end
 
   devise_for :users
   devise_scope :user do
@@ -11,6 +17,7 @@ PersonalWebsite::Application.routes.draw do
 
   devise_for :admin_users, ActiveAdmin::Devise.config
 
+  match '/list' => 'recipes#list'
   root :to => "recipes#index"
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -60,8 +67,8 @@ PersonalWebsite::Application.routes.draw do
   #   end
 
   # You can have the root of your site routed with "root"
-  # just remember to delete public/index.html.
-  # root :to => "welcome#index"
+  # just remember to delete public/list.html.
+  # root :to => "welcome#list"
 
   # See how all your routes lay out with "rake routes"
 

@@ -1,10 +1,11 @@
 class RecipesController < ApplicationController
   # GET /recipes
   # GET /recipes.xml
-  def index
+
+  def list
     @recipes = Recipe.paginate(:page => params[:page])
     respond_to do |format|
-      format.html # index.html.erb
+      format.html # listhtml.erb
       format.xml  { render :xml => @recipes }
     end
   end
@@ -52,7 +53,7 @@ class RecipesController < ApplicationController
   # PUT /recipes/1
   # PUT /recipes/1.xml
   def update
-    @recipe = Recipe.find(params[:id])
+    @recipe = Recipe.find(params[:recipe])
 
     respond_to do |format|
       if @recipe.update_attributes(params[:recipe])

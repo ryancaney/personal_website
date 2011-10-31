@@ -1,4 +1,4 @@
-class AddPhotoColumnsToRecipe < ActiveRecord::Migration
+class AddAttachmentPhotoToRecipe < ActiveRecord::Migration
   def self.up
     add_column :recipes, :photo_file_name, :string
     add_column :recipes, :photo_content_type, :string
@@ -7,9 +7,9 @@ class AddPhotoColumnsToRecipe < ActiveRecord::Migration
   end
 
   def self.down
-    remove_column :recipes, :photo_updated_at
-    remove_column :recipes, :photo_file_size
-    remove_column :recipes, :photo_content_type
     remove_column :recipes, :photo_file_name
+    remove_column :recipes, :photo_content_type
+    remove_column :recipes, :photo_file_size
+    remove_column :recipes, :photo_updated_at
   end
 end

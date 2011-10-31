@@ -1,9 +1,11 @@
 class Recipe < ActiveRecord::Base
-  attr_accessible :name, :author, :ingredients, :directions
+  require "paperclip"
 
-  has_attached_file :photo, :styles=> { :medium => "300x300>", :thumb => "100x100>" }
+  attr_accessible :name, :author, :ingredients, :directions, :photo
+
   # 1 to many
-  #has_many :comments, :dependent => :destroy
+  has_many :ucomments, :dependent => :destroy
 
+  has_attached_file :photo, :styles => { :small => "150x150#" }
 end
 
