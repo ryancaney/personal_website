@@ -1,6 +1,8 @@
-<p>
-  <b>Comment by: </b> <%= ucomment.user_name %> <br />
+<div class="comment" data-time="<%= ucomment.created_at.to_i %>"></div>
+  <b>Comment by: </b> <%= ucomment.user_name %>
+    <em>on <%= ucomment.created_at %></em> <br />
   <b>Comment: </b><%= ucomment.content %>
+</div>
 
 </p>
 

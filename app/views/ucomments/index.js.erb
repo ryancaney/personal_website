@@ -1,0 +1,4 @@
+<% unless @ucomments.empty? %>
+$('#comments').append("<%= escape_javascript(raw render(@ucomments))%>");
+$('#recipe h2').text($('.comment').length + ' comments');
+<% end %>

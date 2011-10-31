@@ -32,8 +32,13 @@
 
 <br />
 <!-- display the saved comments, connects to comments/comment partial -->
-<h3>Comments</h3>
-<%= render @recipe.ucomments %>
+<% unless @recipe.ucomments.empty? %>
+  <h2><%= pluralize(@recipe.ucomments.size, 'comment') %></h2>
+  <div id="comments">
+  <%= render @recipe.ucomments %>
+  <% end %>
+  </div>
+
 
 
 <%= link_to 'Edit', edit_recipe_path(@recipe) %> |
