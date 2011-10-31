@@ -1,3 +1,4 @@
+<div id="recipe" data-id="<%= @recipe.id %>">
 <p id="notice"><%= notice %></p>
 
 <%= image_tag @recipe.photo.url (:small) %>
@@ -43,3 +44,4 @@
 
 <%= link_to 'Edit', edit_recipe_path(@recipe) %> |
 <%= link_to 'Back', list_path %>
+</div>
