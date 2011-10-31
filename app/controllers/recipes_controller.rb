@@ -1,6 +1,13 @@
 class RecipesController < ApplicationController
   # GET /recipes
   # GET /recipes.xml
+  def index
+    respond_to do |f|
+      f.html
+      f.js do
+        end
+      end
+    end
 
   def list
     @recipes = Recipe.paginate(:page => params[:page])
@@ -16,6 +23,9 @@ class RecipesController < ApplicationController
     @recipe = Recipe.find(params[:id])
     respond_to do |format|
       format.html # show.html.erb
+      format.js do
+
+        end
       format.xml  { render :xml => @recipe }
     end
   end

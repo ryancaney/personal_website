@@ -1,6 +1,6 @@
 <!--form used to add a comment -->
 
-<%= form_for([@recipe, @recipe.ucomments.build]) do |f| %>
+<%= form_for ([@recipe, @recipe.ucomments.build]) do |f| %>
 <div class="field">
   <%= f.hidden_field :user_name, :value => current_user.email %>
   <%= f.label :content %><br />

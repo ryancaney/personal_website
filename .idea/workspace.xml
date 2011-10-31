@@ -7,9 +7,12 @@
       <change type="DELETED" beforePath="C:\Users\Ryan\Documents\Software_Engineering\personal_website\public\javascripts\effects.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Ryan\Documents\Software_Engineering\personal_website\public\javascripts\prototype.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Ryan\Documents\Software_Engineering\personal_website\public\javascripts\rails.js" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Ryan\Documents\Software_Engineering\personal_website\app\views\ucomments\index.js.erb" afterPath="$PROJECT_DIR$/app/views/ucomments/show.js.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/recipes_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/recipes_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/ucomments_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/ucomments_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/application.js" afterPath="$PROJECT_DIR$/public/javascripts/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/ucomments/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/ucomments/_form.html.erb" />
     </list>
     <ignored path="personal_website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,7 +38,7 @@
       <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/ucomments/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="52" selection-start="241" selection-end="241" vertical-scroll-proportion="-3.9230769">
+            <state line="2" column="14" selection-start="50" selection-end="50" vertical-scroll-proportion="-1.3076923">
               <folding />
             </state>
           </provider>
@@ -44,7 +47,16 @@
       <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/recipes/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="6" selection-start="923" selection-end="923" vertical-scroll-proportion="-14.961538">
+            <state line="46" column="6" selection-start="923" selection-end="923" vertical-scroll-proportion="-18.26923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/recipes/_form.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -71,7 +83,7 @@
       <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="39" selection-start="100" selection-end="100" vertical-scroll-proportion="-2.6153846">
+            <state line="3" column="47" selection-start="62" selection-end="62" vertical-scroll-proportion="-1.9615384">
               <folding />
             </state>
           </provider>
@@ -86,19 +98,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="recipes_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="recipes_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/recipes_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="23" column="0" selection-start="457" selection-end="457" vertical-scroll-proportion="0.64415157">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="show.js.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/ucomments/show.js.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="21" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
+            <state line="1" column="65" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -107,16 +119,7 @@
       <file leaf-file-name="ucomments_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/ucomments_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="2" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/ucomments/index.js.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="22" selection-start="170" selection-end="170" vertical-scroll-proportion="0.08629441">
+            <state line="6" column="27" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -136,22 +139,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/application.rb" />
-        <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/admin/list_models.rb" />
         <option value="$PROJECT_DIR$/app/admin/dashboards.rb" />
         <option value="$PROJECT_DIR$/app/admin/ucomments.rb" />
         <option value="$PROJECT_DIR$/app/admin/recipes.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20111031014410_add_user_nameto_ucomments.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20111029071630_add_attachment_photo_to_recipe.rb" />
-        <option value="$PROJECT_DIR$/app/views/ucomments/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/ucomments/index.js.erb" />
         <option value="$PROJECT_DIR$/app/views/ucomments/_ucomment.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/recipes/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/ucomments_controller.rb" />
         <option value="$PROJECT_DIR$/public/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/views/recipes/index.js.erb" />
+        <option value="$PROJECT_DIR$/app/views/recipes/show.js.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/recipes_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/ucomments_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/ucomments/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/ucomments/show.js.erb" />
       </list>
     </option>
   </component>
@@ -727,15 +730,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1135" height="768" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32232705" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3220859" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15223336" sideWeight="0.677673" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.124255955" sideWeight="0.6779141" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -790,11 +793,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/admin/dashboards.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/recipes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="39" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" />
@@ -829,51 +827,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/ucomments/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="52" selection-start="241" selection-end="241" vertical-scroll-proportion="-3.9230769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="39" selection-start="100" selection-end="100" vertical-scroll-proportion="-2.6153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/recipes/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="6" selection-start="923" selection-end="923" vertical-scroll-proportion="-14.961538">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/ucomments/_ucomment.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="10" selection-start="375" selection-end="375" vertical-scroll-proportion="-7.8461537">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/recipe.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/recipes_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/ucomments_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="2" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -885,9 +841,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/ucomments/index.js.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/ucomments_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="22" selection-start="170" selection-end="170" vertical-scroll-proportion="0.08629441">
+        <state line="6" column="27" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="47" selection-start="62" selection-end="62" vertical-scroll-proportion="-1.9615384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/recipes/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/ucomments/show.js.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="65" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/ucomments/_ucomment.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="10" selection-start="375" selection-end="375" vertical-scroll-proportion="-7.8461537">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/ucomments/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="14" selection-start="50" selection-end="50" vertical-scroll-proportion="-1.3076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/recipes/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="6" selection-start="923" selection-end="923" vertical-scroll-proportion="-18.26923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/recipes_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="457" selection-end="457" vertical-scroll-proportion="0.64415157">
           <folding />
         </state>
       </provider>
