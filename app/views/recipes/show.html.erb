@@ -34,7 +34,7 @@
 <!-- display the saved comments, connects to comments/comment partial -->
 <% unless @recipe.ucomments.empty? %>
   <h2><%= pluralize(@recipe.ucomments.size, 'comment') %></h2>
-  <div id="comments">
+  <div id="ucomments">
   <%= render @recipe.ucomments %>
   <% end %>
   </div>
