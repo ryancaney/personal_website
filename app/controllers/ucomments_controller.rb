@@ -2,12 +2,6 @@ class UcommentsController < ApplicationController
   # How the website handles a new comment
   def index
     @ucomment = Ucomment.where("recipe_id = ? and created_at > ?", params[:recipe_id], Time.at(params[:after].to_i + 1))
-
-    respond_to do |f|
-      f.js do
-
-      end
-    end
   end
 
   def create
