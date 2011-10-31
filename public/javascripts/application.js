@@ -14,6 +14,6 @@ function updateUcomments() {
     else {
         var after = 0;
     }
-    $.getScript('/ucomments.js?recipe_id=' + recipe_id + "&after=" + after);
+    $.getScript('/ucomments.js?recipe_id=' + recipe_id + '&after=' + after);
     setTimeout(updateUcomments, 10000);
 }
